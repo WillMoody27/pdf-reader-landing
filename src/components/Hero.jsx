@@ -6,25 +6,6 @@ import pagesBg from "../assests/svg/pages-bg.svg";
 const Hero = () => {
   return (
     <div className="hero">
-      <nav className="hero__navbar">
-        <h1 className="hero__navbar__logo">PDF-Landing</h1>
-        <div className="navbar__menu">
-          <ul className="navbar__menu__list">
-            <li className="navbar__menu__link">
-              <a href="#">Home</a>
-            </li>
-            <li className="navbar__menu__link">
-              <a href="#">About</a>
-            </li>
-            <li className="navbar__menu__link">
-              <a href="#">Contact</a>
-            </li>
-            <li className="navbar__menu__link">
-              <a href="#">Blog</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
       <div className="hero__half-bg"></div>
 
       <section className="lower__hero">
